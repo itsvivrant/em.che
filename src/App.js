@@ -5,19 +5,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <iframe src="https://giphy.com/embed/7zGmpJmwUp5lNFudOf" width="580" height="398" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <p className="question">Will You Be My Girlfriend ?</p>
       </header>
+      <div className="choices">
+        <button className="buttonOne"> Yes
+        </button>
+        <button className="buttonTwo"> No
+        </button>
+      </div>
     </div>
   );
 }
