@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <div className="question-container">
         <header className="App-header">
-          <iframe src="https://giphy.com/embed/7zGmpJmwUp5lNFudOf" width="580" height="398" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          <p className="question">Will You Be My Girlfriend ?</p>
+        <iframe src="https://giphy.com/embed/8hZ5lHJMtUE2iCVK8W" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <p className="question">Emily, Will You Be My Girlfriend ?</p>
         </header>
       </div>
       <div className="choices-container">
