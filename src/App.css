@@ -1,20 +1,74 @@
 .App {
   text-align: center;
+}
 
+
+.question-container {
+  margin-top: 5em;
 }
 
 .App-header {
   background-color: white;
-  min-height: 80vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .question {
   color: black;
   font-weight: 600;
+}
+
+.choices-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid;
+  width: 40vw;
+  align-self: center;
+}
+
+.choices-container p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+
+.yes-bttn, .no-bttn {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.yes-heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+  width: 50px;
+  animation: pulse 1s ease infinite;
+}
+
+
+.no-heart {
+  fill: black;
+  position: relative;
+  top: 5px;
+  width: 50px;
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
 }
