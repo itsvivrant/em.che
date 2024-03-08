@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <title>Will You Be My Girl?</title>
+  </head>
+  <body>
+        <div class="App">
+            <div class="question-container">
+            <header class="App-header">
+                <iframe src="https://giphy.com/embed/2UDDhQ5LDhRq39GxFG" width="480" height="405" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p class="question">Emily, Will You Be My Girlfriend ?</p>
+            </header>
+            </div>
+            <div class="choices-container">
+            <div class='choiceone'>
+                <button
+                class="bttn"
+                id="yesButton">
+                <svg class="yes-heart" viewBox="0 0 32 29.6"><path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2 c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                </svg>
+                </button>
+                <p>Yes</p>
+            </div>
+
+            <div class="choicetwo">
+                <button
+                onClick={moveNoButton()}
+                onmouseover={moveNoButton()}
+                class="bttn"
+                id="noButton"
+                >
+                <svg class="no-heart" viewBox="0 0 32 29.6"><path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2 c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                </svg>
+                </button>
+                <p>No</p>
+            </div>
+            </div>
+        </div>
+    </body>
+    <script src="./resources/js/index.js"></script>
+</html>
